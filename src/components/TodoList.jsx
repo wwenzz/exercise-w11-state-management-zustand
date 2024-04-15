@@ -35,6 +35,7 @@ export const TodoList = () => {
           </label>
           <span>Created at: {todo.createdAt.calendar()}</span>
           <button
+            className="delete-btn"
             value={todo.id}
             type="button"
             onClick={e => deleteTodo(e.target.value)}

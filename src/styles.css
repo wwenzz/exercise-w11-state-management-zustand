@@ -1,3 +1,8 @@
 .todo-item:has(.todo-task:checked) {
   text-decoration: line-through 1px solid;
 }
+
+.delete-btn {
+  border: none;
+  background: none;
+}
